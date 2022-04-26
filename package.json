@@ -1,0 +1,23 @@
+{
+    "name": "homelane",
+    "version": "1.0.0",
+    "description": "this is microservice architcture for homelane hackerearth test",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [
+        "test"
+    ],
+    "author": "dipan",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "cors": "^2.8.5",
+        "express": "^4.18.0",
+        "mongodb": "^4.5.0",
+        "mongoose": "^6.3.1",
+        "nodemon": "^2.0.15"
+    }
+}
